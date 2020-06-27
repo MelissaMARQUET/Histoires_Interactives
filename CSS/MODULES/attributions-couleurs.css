@@ -1,0 +1,62 @@
+/*_________________________
+Attribution des couleurs */
+/******NEUTRE*******/
+.neutreNom {
+    color : var(--neutre)
+}
+.neutreBulle {
+    border-color: var(--neutre);
+}
+.neutreArrow {
+    border-top: 3em solid var(--neutre);
+}
+/******HEUREUX*******/
+.heureuxNom {
+    color : var(--heureux)
+}
+.heureuxBulle {
+    border-color: var(--heureux);
+}
+.heureuxArrow {
+    border-top: 3em solid var(--heureux);
+}
+/******TRISTE*******/
+.tristeNom {
+    color : var(--triste)
+}
+.tristeBulle {
+    border-color: var(--triste);
+}
+.tristeArrow {
+    background : var(--triste);
+}
+/******AMOUR*******/
+.amourNom {
+    color : var(--amour)
+}
+.amourBulle {
+    border-color: var(--amour);
+}
+.amourArrow {
+    background : var(--amour);
+}
+/******COLERE*******/
+.colereNom {
+    color : var(--colere)
+}
+.colereBulle {
+    border-color: var(--colere);
+}
+.colereArrow {
+    border-top: 3em solid var(--colere);
+}
+/******PEUR*******/
+.peurNom {
+    color : var(--peur)
+}
+.peurBulle {
+    border-color: var(--peur);
+}
+.peurArrow {
+    border-top: 3em solid var(--peur);
+}

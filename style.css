@@ -1,0 +1,28 @@
+/* CSS organized with the SMACSS method
+~~App designed for smartphone use~~~~
+@import url();
+*/
+/*___________BASE____________*/
+@import url(CSS/BASE/colors.css);
+@import url(CSS/BASE/fonts.css);
+@import url(CSS/BASE/general-properties.css);
+@import url(CSS/BASE/setting-reset.css);
+/*__________LAYOUT___________*/
+@import url(CSS/LAYOUT/section.css);
+/*__________MODULE___________*/
+@import url(CSS/MODULES/attributions-couleurs.css);
+@import url(CSS/MODULES/chapitre.css);
+@import url(CSS/MODULES/histoire_header.css);
+@import url(CSS/MODULES/histoires_nav.css);
+@import url(CSS/MODULES/homebutton.css);
+@import url(CSS/MODULES/homepage.css);
+@import url(CSS/MODULES/main_char_section.css);
+@import url(CSS/MODULES/narration-section.css);
+@import url(CSS/MODULES/other_char_section.css);
+@import url(CSS/MODULES/touchbutton.css);
+/*_________RESPONSIVE_________
+Breakpoints used for resposive :
+/* 460px / 16px = 28.75em *
+@media (max-width: 28.75em) {
+}
+*/

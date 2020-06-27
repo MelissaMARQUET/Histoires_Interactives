@@ -1,0 +1,33 @@
+.touch-button {
+    position : absolute;
+    width : 460px;
+    margin : 0 auto;
+    bottom : 1em;
+    text-align : center;
+    font-style: italic;
+    font-weight : 100; 
+    font-size : 2em;
+    animation-name: clignote;
+    animation-duration: 2s;
+    animation-delay : 10s;
+    animation-iteration-count: infinite;
+}
+.touch-button i {
+    display: block;
+    text-align: center;
+}
+/*animation*/
+@keyframes clignote {
+    from {
+        color: transparent;
+    }
+    to {
+        color: var(--titres);
+    }
+}
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+    .touch-button {
+        width : 100%;
+    }
+}

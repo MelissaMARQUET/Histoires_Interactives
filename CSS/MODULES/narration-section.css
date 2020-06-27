@@ -1,0 +1,13 @@
+.narration-section {
+    background : var(--background);
+}
+.narration-text {
+    width : 80%;
+    margin : 0 auto;
+    padding : 1em;
+    position : relative;
+    top : 30%;
+    border: 0.3em solid var(--narration);
+    border-radius : 0.5em;
+    background: var(--textbackground);
+}

@@ -1,0 +1,33 @@
+.main-character-section {
+    background : var(--maincharacterbackground);
+}
+.main-character-text {
+    position : relative;
+    top : 8%;
+    left : 5%;
+    padding : 0.3em;
+    width : 80%;
+    border-width: 0.5em;
+    border-style: solid;
+    border-top-left-radius : 2em;
+    border-top-right-radius : 5em;
+    border-bottom-left-radius : 5em;
+    border-bottom-right-radius : 2em;
+    background : var(--textbackground);
+    font-family : "Times New Roman", serif ;
+}
+.main-character-arrow {
+    position : relative;
+    bottom : -3.5em;
+    left : 75%;
+    width: 0;
+    height: 0;
+    border-right: 2em solid transparent;
+}
+/*.main-character-img {
+    position : relative;
+    top : 10%;
+    left : 5%;
+    display : block;
+    width : 80%;
+}*/

@@ -1,0 +1,54 @@
+.histoires-nav {
+    width: 60%;
+    margin : 2em auto;
+}
+.histoires-link {
+    display : block;
+    height: 100%;
+    border: 0.5em solid white;
+    text-decoration : none;
+}
+/*.histoires-img {
+    display: block;
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+}*/
+.histoires-titre {
+    font-size: 4rem;
+    background: var(--textbackground);
+    color: var(--textcolor);
+    text-align: center;
+}
+.histoires-link span {
+    font-size : 0.5em;
+}
+/*animation sur la page d'accueil*/
+.histoires-link .firstchevron {
+    animation-name: linkanimation;
+    animation-duration: 1.6s;
+    animation-delay: 0.8s;
+    animation-iteration-count: infinite;
+}
+.histoires-link .secondchevron {
+    animation-name: linkanimation;
+    animation-duration: 1.6s;
+    animation-delay: 1.2s;
+    animation-iteration-count: infinite;
+}
+.histoires-link .thirdchevron {
+    animation-name: linkanimation;
+    animation-duration: 1.6s;
+    animation-delay: 1.6s;
+    animation-iteration-count: infinite;
+}
+@keyframes linkanimation {
+    from {
+        color: white;
+        margin-left: 0.2rem;
+    }
+    to {
+        color: black;
+        margin-left: 0.5rem;
+    }
+}

@@ -1,0 +1,18 @@
+:root {
+    --background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,120,120,1) 25%, rgba(255,255,255,1) 50%, rgba(120,120,120,1) 75%, rgba(2,0,36,1) 100%);
+    --buttonbackground : radial-gradient(circle, rgba(255,255,255,1) 30%, rgba(190,190,190,1) 60%, rgba(120,120,120,1) 87%, rgba(230,230,230,1) 98%);
+    --textbackground : linear-gradient(90deg, rgba(240,240,240,1) 0%, rgba(255,255,255,1) 100%);
+    --textcolor : #4c4c4c;
+/*Les backgournds des textes des personnages sont identiques actuellement,  mais ils pourront être aisément modifiés*/
+    --maincharacterbackground : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,120,120,1) 25%, rgba(255,255,255,1) 50%, rgba(120,120,120,1) 75%, rgba(2,0,36,1) 100%);
+    --othercharacterbackground : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,120,120,1) 25%, rgba(255,255,255,1) 50%, rgba(120,120,120,1) 75%, rgba(2,0,36,1) 100%);
+    --titres : rgb(2,0,36);
+    --titresclair : #777;
+    --narration : #5555;
+    --neutre : #4c4c4c;
+    --heureux : #00bf00;
+    --triste : #2c689c;
+    --amour : rgba(255,0,127,0.9);
+    --colere :rgba(238,9,9,0.9);
+    --peur : #333;
+}

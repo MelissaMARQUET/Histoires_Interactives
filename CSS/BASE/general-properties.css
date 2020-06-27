@@ -1,0 +1,25 @@
+/*_________Settings for an easy size 
+calculation within the site ___________*/
+html {
+    font-size: 52%;
+}
+/*Different font-size settings 
+for the responsive*/
+/* 500px / 16px = 31.25em */
+@media (max-width: 31.25em) {
+    html {
+    font-size: 48%;
+    }
+}
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+    html {
+    font-size: 45%;
+    }
+}
+/*General properties for the body*/
+body {
+    background: black;
+    color: black;
+    line-height : 1.5;
+}
